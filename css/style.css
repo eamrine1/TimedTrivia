@@ -1,7 +1,49 @@
 * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 .purrfect {
+  height: 400px;
   font-weight: bold;
-  font-size: 50px;
+  font-size: x-large;
+  color: burlywood;
+  text-shadow: 4px 4px 3px black;
   font-family: "Times New Roman", Times, serif;
+  background-image: url(../css/images/cat\ background.jpg);
+  padding-top: 125px;
+  padding-left: 60px;
+}
+.container {
+  height: 400px;
+  text-align: center;
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.button {
+  background-color: pink;
+  border-radius: 15px;
+  margin-top: 40px;
+  text-align: center;
+  font-size: medium;
+  font-weight: bold;
+}
+a:hover {
+  color: black;
+}
+button a {
+  text-decoration: none;
+  color: White;
+  text-shadow: 2px 2px 5px black;
+}
+.footer {
+  height: 100px;
+  background-color: lavender;
+  padding: 40px 100px;
+  color: black;
+  text-shadow: 2px 2px 5px whitesmoke;
+  border-top: 5px solid black;
+  text-align: center;
 }
